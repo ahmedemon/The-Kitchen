@@ -1,0 +1,516 @@
+body{
+	/*background-image: url(../../images/bg/8.png);*/
+	background-color: #F8F9FA;
+	overflow-x: hidden;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*.carousel-caption h5{
+	margin-top: -40% !important;
+	background-color: gray !important;
+	padding: 20px;
+	margin: 0;
+}
+.carousel-caption p{
+	padding: 20px;
+	background-color: gray !important;
+}*/
+/*menu area start*/
+.site_name{
+	color: white !important;
+	font-family: 'Baloo Bhai' !important;
+	font-size: 30px;
+	font-weight: 1000;
+	margin: 0;
+	transition-duration: 3s;
+}
+.lni-menu{
+	color: white;
+}
+.lnimenu2{
+	color: black !important;
+}
+.navbar-toggler2{
+	border: 1px solid black !important;
+	transition: 0.5s;
+}
+nav li a{
+	margin-right: -1px;
+	/*width: 125px !important;*/
+	color: white !important;
+	letter-spacing: 3px;
+	border: 1px solid transparent !important;
+	background-color: transparent !important;
+	transition-duration: 5s;
+}
+nav li a:hover{
+	color: black !important;
+	transition: 0.5s;
+	background-color: white !important;
+/*	border-radius: 3px !important;*/
+}
+nav{
+	background-color: transparent;
+	transition-duration: 1s;
+}
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
+	.nav_menu a{
+	width: 100% !important;
+	margin-bottom: -1px;
+	}
+}
+.active2:hover{
+	color: white !important;
+	transition: 0.5s;
+	background-color: #35363A !important;
+	border-radius: 0px !important;
+}
+.active2{
+	/*width: 150px;*/
+	letter-spacing: 3px;
+	/*border: 1px solid black !important;*/
+	border-radius: 0px !important;
+	margin-right: -1px;
+	color: black !important;
+	background-color: transparent !important;
+	transition: 0.5s;
+}
+.active1{
+	background-color: white;
+	filter: opacity(90%);
+	transition: 1s;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+				0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.name1{
+	transition: 1s;
+	color: #484B59 !important;
+}
+/*menu area end*/
+
+/*slider start*/
+.carousel img{
+	height: 770px;
+	width: 100%;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+	.carousel img{
+		width: 100% !important;
+		height: 640px !important;
+	}
+}
+/*slider end*/
+
+/*Section about area start*/
+.about{
+	margin-top: -8% !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 1199px) {
+	.about{
+		margin-top: 0% !important;
+	}
+}
+#section-about span{
+	color: #84B813;
+}
+#section-about p{
+	font-family: 'Roboto';
+	letter-spacing: 1px;
+}
+#section-about h2{
+	color: #484B59;
+	font-size: 48px;
+}
+#section-about h5{
+	color: #e02f46;
+}
+.progress_container p{
+	font-size: 13px !important;
+	color: gray !important;
+}
+.progress{
+	height: 10px;
+}
+/*Flip box start*/
+.flip-box {
+  background-color: transparent;
+  width: 400px;
+  height: 330px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  height: 330px;
+  transition-delay: 0.3s;
+}
+.flip-box:hover .flip-box-inner2 {
+  transform: rotateY(180deg);
+  height: 330px;
+  transition-delay: 0.3s;
+}
+.flip-box:hover .flip-box-inner3 {
+  transform: rotateY(180deg);
+  height: 330px;
+  transition-delay: 0.3s;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-front2, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-front3, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+				0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.flip-box-front {
+	background-color: #E02F46;
+	color: white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+				0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.flip-box-front2 {
+  background-color: #84B813;
+  color: white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+				0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.flip-box-front3 {
+  background-color: #484B59;
+  color: white;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+				0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.flip-box-back {
+  background-color: white;
+  color: #484B59;
+  transform: rotateY(180deg);
+}
+.flip-box-back .lni-dinner{
+	color: #E02F46;
+}
+.flip-box-back .lni-burger{
+	color: #84B813;
+}
+.flip-box-back .lni-timer{
+	color: #484B59;
+}
+.lni{
+	font-size: 40px !important;
+}
+/*Flip box end*/
+
+/*Section about area end*/
+
+/*-----------------------------------------*/
+
+/*Section offers area start*/
+.offers h1{
+	font-family: 'Baloo Bhai';
+	font-size: 50px;
+}
+.offers{
+	background-image: url(../../images/banner-23.jpg);
+	background-attachment: fixed;
+	background-position: bottom right;
+	background-size: cover;
+}
+.item-inner{
+	height: 450px;
+	border: 1px solid gray;
+	color: white;
+	transition: 0.3s;
+	overflow: hidden;
+}
+.item-inner:hover{
+	transition: 0.3s;
+}
+.inner-image{
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+/*overlay start*/
+.inner-image .image{
+	transition: 0.5s;
+	display: block;
+}
+.inner-image .overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	filter: opacity(60%);
+	background-color: black;
+	/*background-image: url(../../images/bg/offer-bg.png);*/
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
+}
+.item-inner:hover .overlay{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.inner-image .text{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.inner-image .text h3{
+	font-family: 'Baloo Bhai';
+	font-size: 40px !important;
+}
+/*.inner-image:hover img{
+	transform: scale(1.2);
+	transition: 0.5s;
+}*/
+
+/*overlay end*/
+.owl-dots{
+	visibility: hidden !important;
+}
+.owl-nav{
+	font-size: 35px;
+	color: white;
+}
+
+
+
+.lni-heart-filled{
+	color: white;
+	font-size: 45px !important;
+	font-weight: 900 !important;
+	transition: 0.2s;
+}
+.lni-heart-filled:hover{
+	color: #ff4757 !important;
+	transition: 0.2s;
+}
+/*Section offers area end*/
+
+
+/*specialities area start*/
+.rotate .lni{
+	transition: 0.6s;
+	font-size: 25px !important;
+}
+.rotate:hover .lni{
+	transform: rotateY(180deg);
+	transition: 0.6s;
+}
+.specialities h4{
+	color: #3C3F46;
+	font-family: 'Roboto', sans-serif;
+}
+.specialities h5{
+	font-family: 'Roboto', sans-serif;
+	color: #e02f46;
+}
+.specialities h1{
+	font-size: 50px;
+	font-family: 'Baloo Bhai';
+	color: #484B59;
+}
+.specialities p{
+	color: #7E8189;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+/*specialities area end*/
+
+
+/*section menu start*/
+.menu h1{
+	font-family: 'Baloo Bhai';
+	font-size: 50px;
+}
+.menu{
+	background-image: url(../../images/map-img.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.menu-back{
+	background-image: url(../../images/bg/food1.png);
+}
+.menu-meun{
+	margin: 0 !important;
+	padding-bottom: -10px !important;
+}
+/*section menu end*/
+
+
+/*section review start*/
+.review h1{
+	font-family: 'Baloo Bhai';
+	font-size: 50px;
+}
+.review .owl-dots,.owl-nav{
+	visibility: hidden;
+}
+.review-body img{
+	border: 5px solid #FF5252;
+	transition-duration: .5s;
+}
+.review-body:hover img{
+	filter: brightness(120%);
+	transition-duration: .5s;
+}
+.review-body{
+	border-radius: 7px;
+	box-shadow: 0px 0px 0px 0px #95A5A6;
+	transition-duration: .5s;
+}
+.review-body:hover{
+	box-shadow: 0px 0px 10px 0.1px #95A5A6;
+	transition: .5s;
+}
+/*section review end*/
+
+
+/*section-bookings start*/
+.bookings{
+	background-image: url(../../images/table-img.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+}
+.bookings h1{
+	font-family: 'Baloo Bhai';
+	font-size: 45px;
+}
+::placeholder {
+color: white !important;
+opacity: 1;
+}
+
+form input{
+	height: 50px !important;
+}
+/*section-bookings end*/
+
+
+/*section gallery start*/
+.gallery h1{
+	font-family: 'Baloo Bhai';
+	font-size: 50px;
+}
+.gallery img{
+	height: 300px;
+	width: auto;
+}
+.overlay{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.gallery-item-inner{
+	/*filter: opacity(70%);*/
+	color: white;
+	transition: 0.3s;
+	overflow: hidden;
+}
+.gallery-item-inner:hover{
+	transition: 0.3s;
+}
+.gallery-inner-image{
+	position: relative;
+	overflow: hidden;
+}
+/*overlay start*/
+.gallery-inner-image .gallery-image{
+	transition: 0.5s;
+	display: block;
+}
+.gallery-inner-image .gallery-overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	filter: opacity(30%);
+	background-image: url(../../images/bg/offer-bg.png);
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
+}
+.gallery-item-inner:hover .gallery-overlay{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+/*section gallery end*/
+
+
+
+/*section contact start*/
+.contact h1{
+	font-family: 'Baloo Bhai';
+	font-size: 50px;
+}
+.contact{
+	background-image: url(../../images/contactus-background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*section contact end*/
